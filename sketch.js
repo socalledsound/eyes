@@ -15,8 +15,8 @@ function setup() {
     frameRate(4);
  
         for(let i = 0; i < numCircles; i++) {
-        circlesLeft[i] = new Circle( i*10 +50 + i*random(60),400,random(size));
-        circlesRight[i] = new Circle( i*10 +550 + i*random(60),400,random(size));
+        circlesLeft[i] = new Circle( i*10 +200 + i*random(20),0,random(size));
+        circlesRight[i] = new Circle( i*10 +600 + i*random(20),0,random(size));
     }
 
 
